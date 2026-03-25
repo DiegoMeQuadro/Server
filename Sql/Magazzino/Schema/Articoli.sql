@@ -1,0 +1,7 @@
+CREATE TABLE Articoli(
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Marca VARCHAR(50),
+    Modello VARCHAR(100),
+    Descrizione VARCHAR(100),
+    Codice VARCHAR(50) UNIQUE
+);
